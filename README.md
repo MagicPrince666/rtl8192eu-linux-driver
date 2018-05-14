@@ -45,6 +45,10 @@ from source when the kernel is upgraded (for example using your package manager)
     ```shell
     $ sudo apt-get install git raspberrypi-kernel-headers build-essential dkms
     ```
+    or
+    ```shell
+    $ sudo apt-get install xxx
+    ```
 
 2. Add the driver to DKMS. This will copy the source to a system directory so
 that it can used to rebuild the module on kernel upgrades.
